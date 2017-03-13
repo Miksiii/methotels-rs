@@ -34,9 +34,9 @@
             const id = data[i].id,
                   name = data[i].name,
                   email = data[i].email,
-                  body = data[i].body;
+                  text = data[i].body;
 
-            $('.comments').append("<div class='comment'><div class='cname'><h1>#" + id + " " + name + "</h1></div><div class='cemail'><h2>" + email + "</h2></div><div class='cbody'>" + body + "</div></div>");
+            $('.comments').append("<div class='comment'><div class='cname'><h1>#" + id + " " + name + "</h1></div><div class='cemail'><h2>" + email + "</h2></div><div class='cbody'>" + text + "</div></div>");
           }
         }, 
         error: function(error) {
